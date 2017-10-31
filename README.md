@@ -1,6 +1,7 @@
 # Spree Commerce with Ansible
 
 The purpose of this project is to automate a new Spree Commerce rails app with some bells and whistles. Vagrant will start 3 servers labeled ```development``` ```production``` and ```dbserver```
+
 ATM this is a work in progress as I am working on being as clean as possible.
 
 ## Prerequistes
