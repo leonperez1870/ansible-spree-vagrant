@@ -1,0 +1,21 @@
+---
+  - name: Update apt cache
+    become: yes
+    apt: update-cache=yes
+    tags: common
+
+  - name: Install common packages
+    become: yes
+    apt: pkg={{ item }} state=latest
+    with_items:
+      - curl
+      - git
+      - vim
+      - htop
+      - mysql-client
+      - libmysqlclient-dev
+      - build-essential
+      - python-software-properties
+
+  - name: Install hosts file
+    template: src=templates/hosts.j2 dest=/etc/hosts mode=644

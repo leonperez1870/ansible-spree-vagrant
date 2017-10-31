@@ -1,0 +1,7 @@
+---
+  - name: Setup Spree Commerce on Ubuntu 16.04
+    hosts: all
+    become_user: root
+    become: true
+    roles:
+      - common
