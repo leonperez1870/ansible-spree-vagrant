@@ -48,4 +48,3 @@ Sit back and enjoy
 - Have rails server run its appropriate server
 - Connect MySQL server
 - Automate Git Flow
-- GCE deployment
