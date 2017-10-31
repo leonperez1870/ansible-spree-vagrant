@@ -12,6 +12,7 @@ Set the ```VMs``` variable to the IP addresses you want
 Run ```vagrant up``` to spin up those three servers
 
 - VirtualBox
+
 Go to VirtualBox Preferences > Network > Host-only Networks
 Add a host only network with your preferred IPv4 and IPv4 Network Mask
 
